@@ -12,5 +12,8 @@
     "require": {
         "php": ">=7.4",
         "monolog/monolog": "^2.2"
+      },
+      "scripts": {
+        "test": "phpunit"
       }
 }
