@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  adocaopets:
+    image: tomsik68/xampp
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - C:/Users/usuario/Desktop/adocaoPets:/opt/lampp/htdocs
+      - C:/Users/usuario/Desktop/adocaoPets/assets/bd/adocaopets.sql:/docker-entrypoint-initdb.d/adocaopets.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: adocaopets
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
