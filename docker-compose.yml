@@ -14,3 +14,12 @@ services:
       MYSQL_DATABASE: adocaopets
       MYSQL_USER: user
       MYSQL_PASSWORD: password
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - adocaopets
