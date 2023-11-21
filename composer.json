@@ -1,5 +1,5 @@
 {
-    "name": "adocaopets",
+    "name": "oi/adocaopets",
     "description": "Uma breve descrição do seu projeto",
     "type": "project",
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "alguma/biblioteca": "1.0.0",
-        "outra/biblioteca": "^2.0"
-    }
+        "php": ">=7.4",
+        "monolog/monolog": "^2.2"
+      }
 }
