@@ -1,0 +1,16 @@
+{
+    "name": "adocaopets",
+    "description": "Uma breve descrição do seu projeto",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "gabriel.bernardino@urca.br"
+        }
+    ],
+    "require": {
+        "alguma/biblioteca": "1.0.0",
+        "outra/biblioteca": "^2.0"
+    }
+}
